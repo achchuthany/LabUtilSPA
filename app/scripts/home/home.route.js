@@ -5,7 +5,7 @@
 
         var home = {
             url: '/home',
-            templateUrl: '/scripts/home/home.html',
+            templateUrl: 'scripts/home/home.html',
             controller: 'HomeController',
             controllerAs: 'vm',
             data: {
