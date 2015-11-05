@@ -1,4 +1,4 @@
-// Generated on 2015-11-02 using generator-angular 0.12.1
+// Generated on 2015-11-05 using generator-angular 0.12.1
 'use strict';
 
 // # Globbing
@@ -319,12 +319,12 @@ module.exports = function (grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'labUtilSpaApp',
+          module: 'labUtilApp',
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },
         cwd: '<%= yeoman.app %>',
-        src: 'views/{,*/}*.html',
+        src: 'scripts/{,*/}*.html',
         dest: '.tmp/templateCache.js'
       }
     },

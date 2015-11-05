@@ -1,4 +1,3 @@
-
 (function (angular) {
     'use strict';
     var routeConfig = function ($stateProvider) {

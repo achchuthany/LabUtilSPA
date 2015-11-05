@@ -2,14 +2,13 @@
 
 /**
  * @ngdoc function
- * @name labUtilApp.controller:MainCtrl
+ * @name labUtilApp.controller:AboutCtrl
  * @description
- * # MainCtrl
+ * # AboutCtrl
  * Controller of the labUtilApp
  */
-angular.module('app.home')
-  .controller('HomeController', function () {
-	 var vm = this;
+angular.module('labUtilApp')
+  .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
