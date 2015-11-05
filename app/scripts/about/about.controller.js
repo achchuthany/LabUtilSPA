@@ -7,10 +7,12 @@
  * # AboutCtrl
  * Controller of the labUtilApp
  */
-angular.module('labUtilApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
+angular.module('app.about')
+  .controller('AboutController', function () {
+		var vm = this;
+	
+    vm.awesomeThings = [
+      'about',
       'AngularJS',
       'Karma'
     ];

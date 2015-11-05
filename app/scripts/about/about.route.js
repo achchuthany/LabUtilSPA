@@ -3,20 +3,19 @@
     var routeConfig = function ($stateProvider) {
 
         var home = {
-					 'abstract': true,
-            url: '/home',
-            templateUrl: 'scripts/home/home.html',
-            controller: 'HomeController',
+            url: '/about',
+            templateUrl: 'scripts/about/about.html',
+            controller: 'AboutController',
             controllerAs: 'vm',
             data: {
             }
         };
 
-        $stateProvider.state('home', home);
+        $stateProvider.state('about', home);
     };
 
     routeConfig.$inject = ['$stateProvider'];
 
-    angular.module('app.home').config(routeConfig);
+    angular.module('app.about').config(routeConfig);
 
 })(angular);
