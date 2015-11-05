@@ -10,7 +10,7 @@
 angular.module('app.home')
   .controller('HomeController', function () {
 	 var vm = this;
-    this.awesomeThings = [
+    vm.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
